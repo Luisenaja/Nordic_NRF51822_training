@@ -3,7 +3,7 @@ TARGETS          := nrf51422_xxac
 OUTPUT_DIRECTORY := _build
 
 SDK_ROOT := ../../../../../..
-PROJ_DIR := ../../..
+PROJ_DIR := ../../../
 
 $(OUTPUT_DIRECTORY)/nrf51422_xxac.out: \
   LINKER_SCRIPT  := temperature_gcc_nrf51.ld
